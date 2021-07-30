@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(156, 135, 135);
+}
+
+nav{
+    background-color: rgb(71, 71, 71);
+    height: 35px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px;
+}
+nav a{
+    color: white;
+    font-family: Cochin;
+}
+
+.row{
+    height: 30vh;
+    display: flex;
+}
+
+.column{
+    width: 30%;
+    border: 3px solid black;
+    display: flex;
+    margin: 1%;
+}
