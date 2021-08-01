@@ -1,64 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    
-    <nav>
-        <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact me</a></li>
-        </ul>
-    </nav>
-    <header class="page-title">
-        <h1>Jordan's Portfolio</h1>
-    </header>
-    <main>
-        <section class="row" id="col-1">
-            <header id="about">About me</header>
-            <Section class="column">
-                <p>Hello! My name is Jordan, I'm 25 years old and I am from Seattle, WA. This is my first week of coding boot camp here at SMU!</p>
-                <img src="./seattle.jpg" alt="Seattle"
-                width="100%"
-                height="300px"/>
-            </Section>
-        </section>
-        <section class="row" id="col-2">
-            <header id="work">My work</header>
-            <section class="column">
-                <img src="./coding.jpg" alt="coding"
-                width="100%"
-                height="300px"/>
-            </section>
-            
-        </section>
-        <section class="row" id="col-3">
-            <header id="resume">Resume</header>
-            <section class="column">
-                <img src="./resume.jpg" alt="resume"
-                width="70%"
-                height="260px"/>
-            </section>
-            
-        </section>
-    </main>
-    <nav id="contact">
-        <ul>
-            <li><a href="#">Phone number: (555) 555-555</a></li>
-            <li><a href="#">Email: Student@gmail.com</a></li>
-                <li><a href="#">LinkedIN: Jordan Soh</a></li>
-                </ul>
-            </nav>
-            <footer>
-                <p>@ New world produtions 2021</p>
-            </footer>
-        </body>
-</html>
+  <nav>
+    <ul>
+      <li><a href="#About me">About me</a></li>
+      <li><a href="#Previous work">Previous work</a></li>
+      <li><a href="#Resume">Resume</a></li>
+      <li><a href="#Contact me">Contact me</a></li>
+    </ul>  
+  </nav>
+
+  <header>
+    <h1 class="page-title">
+      Portfolio by Jordan Soh
+    </h1>
+ 
+  </header>
+
+  <main>
+    <section class="row justify-center">
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header">About me</h2>
+          <div class="card-body">
+          </div>
+          <pre class="code-block"><code>
+My name is Jordan Soh and I am 25 years old. I spent 6 years in the U.S Army and now I currently
+live in Frisco, Tx. This is my first week here at SMU taking the full time Coding Bootcamp!
+</code></pre>
+<img src="./assets/css/avatar.png" alt="placeholder-image"
+height="75px"
+width="75px">
+        </figure>
+      </div>
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header">Previous work</h2>
+          <div class="card-body">
+          </div>
+          <pre class="code-block"><code>
+            <img src="./assets/css/coding.jpg" alt="coding"
+            height="200px"
+            width="200px">
+          </code></pre>
+        </figure>
+      </div>
+
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header">Resume</h2>
+          <div class="card-body">
+          </div>
+          <pre class="code-block"><code>
+           <img src="./assets/css/resume.jpg" alt="Resume"
+           height="200px"
+           width="150px">
+        
+          </code></pre>
+        </figure>
+      </div>
+      
+    </section>
+  </main>
+  <nav>
+    <ul> Contact me
+      <li><a href="#">Phone number: 555-555-5555</a></li>
+      <li><a href="#">Email: Jordansoh14@gmail.com</a></li>
+      <li><a href="#">Linkedin</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <h3>@New World Productions 2021</h3>
+  </footer>
+
+</body>
+
+</html> 
