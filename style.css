@@ -6,6 +6,7 @@ body{
     flex-wrap: wrap;
     margin: 1px;
     padding: 1px;
+    
 }
 
 nav{
@@ -22,10 +23,17 @@ nav a{
     font-family: Cochin;
 }
 
+header{
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+}
+
 .row{
-    height: 30vh;
+    height: 30%;
     display: flex;
     flex-wrap: wrap;
+    flex-shrink: 2;
 }
 
 .column{
@@ -41,23 +49,20 @@ nav a{
     background-image: linear-gradient(
     rgba(230, 190, 231, 0.3) 10%,
     rgba(232, 102, 236, 0.6) 100%
+    
   );
     display: flex;
     height: 10vh;
+    position: relative;
 }
 
-header > picture img{
-    position: absolute;
-    height: 50vh;
-    width: 100%;
-    top: -21px;
-}
 #col-1{
     position: relative;
     display: flex;
     right: 0px;
     height: 30vh;
     justify-content: flex-end;
+    
 }
 
 #about{
