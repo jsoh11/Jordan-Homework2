@@ -26,14 +26,15 @@
 
 ## About The Project
 
-<![portfolio_screenshot](https://https://jsoh11.github.io/Jordan-Portfolio/)>
+![portfolio_screenshot](/assets\css/Screenshot.png)
+format: ![screenshot](https://jsoh11.github.io/Jordan-Portfolio/)
 
 This Portfolio was intended to be used as a showcase of previous work as well as a way of contacting and reaching out to me. 
 
 ### Built With
 
-* [jsoh11.github.io/Jordan-Portfolio/]()
-* [https://github.com/jsoh11/Jordan-Portfolio.git]()
+* [https://github.com/jsoh11/Jordan-Password.git]()
+* [https://jsoh11.github.io/Jordan-Password/]()
 * [jordansoh14@gmail.com]()
 
 
